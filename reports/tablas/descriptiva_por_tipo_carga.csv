@@ -1,0 +1,4 @@
+tipo_carga,intervalos,energia_media_kwh,energia_mediana_kwh,energia_total_kwh,fp_ind_medio,pct_fp_bajo,hora_media,pct_intervalos,pct_energia
+Light_Load,18072,8.6,3.3,155896.4,69.7,79.3,7.7,51.6,16.2
+Medium_Load,9696,38.4,34.4,372766.5,93.1,21.5,16.5,27.7,38.8
+Maximum_Load,7272,59.3,56.6,430977.4,91.0,38.4,14.1,20.8,44.9

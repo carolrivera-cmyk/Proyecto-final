@@ -1,0 +1,7 @@
+modelo,version,f1_macro,accuracy,roc_auc_ovr,recall_alto,costo_medio_hora
+Regresión logística,sin LDA (15 variables),0.693,0.716,0.916,0.987,0.399
+Regresión logística,con LDA (2 ejes),0.804,0.811,0.94,0.94,0.374
+kNN (k=25),sin LDA (15 variables),0.642,0.68,0.852,0.981,0.506
+kNN (k=25),con LDA (2 ejes),0.7,0.744,0.933,0.951,0.513
+Random Forest,sin LDA (15 variables),0.884,0.878,0.971,0.951,0.216
+Random Forest,con LDA (2 ejes),0.733,0.757,0.925,0.94,0.447

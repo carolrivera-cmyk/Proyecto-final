@@ -1,0 +1,5 @@
+accion,ahorro_kwh_anual,ahorro_pct_total,co2_evitado_t,energia_trasladada_kwh
+Reducir 10% la carga en horas/días no productivos,11835.2,1.2,5.5,
+Reducir 20% la carga en horas/días no productivos,23670.5,2.5,10.9,
+Trasladar 5% de la energía de punta a periodos intermedios,0.0,0.0,0.0,21548.9
+Trasladar 10% de la energía de punta a periodos intermedios,0.0,0.0,0.0,43097.7

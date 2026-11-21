@@ -1,0 +1,5 @@
+hipotesis,enunciado,tecnica
+H1,Los días se agrupan en pocos tipos de jornada con perfiles distintos,Clustering
+H2,La severidad del exceso de reactiva de la próxima hora es predecible mejor que una línea base,Clasificación
+H3,≥80 % de la varianza de los perfiles diarios en pocas componentes,PCA
+H4,LDA a 2 ejes separa la severidad y conserva o mejora el desempeño,LDA

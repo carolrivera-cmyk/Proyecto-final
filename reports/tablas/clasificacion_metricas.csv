@@ -1,0 +1,6 @@
+modelo,accuracy,precision_macro,recall_macro,f1_macro,roc_auc_ovr,recall_alto,recall_moderado,costo_medio_hora,f1_cv_media,f1_cv_desv
+Línea base (Dummy),0.42,0.14,0.333,0.197,,0.0,0.0,2.22,0.211,0.016
+Regresión logística,0.716,0.703,0.735,0.693,0.916,0.987,0.39,0.399,0.808,0.029
+kNN (k=25),0.68,0.654,0.697,0.642,0.852,0.981,0.271,0.506,0.758,0.045
+Random Forest,0.878,0.883,0.886,0.884,0.971,0.951,0.835,0.216,0.866,0.014
+Gradient Boosting,0.851,0.848,0.861,0.85,0.97,0.979,0.705,0.262,0.86,0.019

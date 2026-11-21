@@ -1,0 +1,12 @@
+problema,registros_afectados,accion,justificacion
+Valores nulos,0,Verificado; sin acción,No hay celdas vacías
+Filas / marcas de tiempo duplicadas,0,Verificado tras corregir fechas,Cada intervalo aparece una sola vez
+Intervalos faltantes en la serie,0,Verificado con date_range,Serie completa de 35.040 intervalos
+Medianoche fechada en el día anterior,365,+1 día a ts_fin; se crea ts_inicio,Validado: día de la semana coincide al 100 %
+Formato de fecha como texto,35040,Conversión a datetime con formato explícito,Evita confundir día y mes
+Lectura en cero (falla de medidor),1,Marcada e interpolada linealmente,"Vecinos ~3,6 kWh; FP 0/0 indefinido"
+FP inconsistente con P y Q,0,FP recalculado con fórmula física,Diferencias solo de redondeo
+Outliers por IQR (energía),328,Conservados,Picos reales de producción; distribución asimétrica
+Outliers por IQR (reactiva capacitiva),7759,Conservados,Ceros estructurales (67 %)
+CO2 redundante y redondeado,35040,Solo KPI; excluido de modelos; se estima en kg,"Correlación 0,99 con la energía"
+Nombres de columnas inconsistentes,11,Renombradas a snake_case con unidad,Evita errores de código

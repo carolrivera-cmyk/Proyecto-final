@@ -1,0 +1,5 @@
+cluster,dias,energia_media_kwh,demanda_pico_kw,factor_carga,fp_dia_pct,pct_tiempo_fp_bajo,exceso_reactiva_kvarh,pct_domingos,pct_sabados,pct_energia_anual,pct_energia_en_punta
+Jornada estándar,236,3184.09,428.34,0.32,89.56,59.88,239.35,2.12,4.24,78.3,47.43
+Jornada extendida,17,5114.19,517.58,0.41,92.66,50.19,179.6,0.0,5.88,9.06,36.28
+Operación continua 24 h,7,5955.01,463.49,0.54,90.89,48.96,336.21,0.0,14.29,4.34,30.15
+Sin producción / reposo,105,757.79,116.07,0.51,88.75,44.6,130.71,44.76,38.1,8.29,38.3

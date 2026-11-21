@@ -1,0 +1,12 @@
+variable,tipo_original,unidad,descripcion,valores_unicos
+date,str,dd/mm/aaaa hh:mm,Fecha y hora de la medición (fin del intervalo de 15 min),35040
+Usage_kWh,float64,kWh,Energía activa consumida en el intervalo,3343
+Lagging_Current_Reactive.Power_kVarh,float64,kVarh,Energía reactiva inductiva (corriente en atraso),1954
+Leading_Current_Reactive_Power_kVarh,float64,kVarh,Energía reactiva capacitiva (corriente en adelanto),768
+CO2(tCO2),float64,tCO2,Emisiones de CO2 asociadas al consumo,8
+Lagging_Current_Power_Factor,float64,%,Factor de potencia con corriente en atraso,5079
+Leading_Current_Power_Factor,float64,%,Factor de potencia con corriente en adelanto,3366
+NSM,int64,segundos,Segundos transcurridos desde la medianoche (Number of Seconds from Midnight),96
+WeekStatus,str,categoría,Día laborable (Weekday) o fin de semana (Weekend),2
+Day_of_week,str,categoría,Día de la semana,7
+Load_Type,str,categoría,"Tipo de carga: Light, Medium o Maximum Load",3

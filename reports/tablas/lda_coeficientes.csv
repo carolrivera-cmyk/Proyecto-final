@@ -1,0 +1,16 @@
+,LD1,LD2
+hora_sin,-0.342,-0.652
+hora_cos,-0.405,-0.406
+dia_num,-0.018,0.136
+fin_semana,0.05,0.098
+mes,0.109,0.268
+periodo_tarifario,-0.267,-0.301
+kwh_lag1,0.426,1.109
+kvarh_lag1,-0.109,-0.868
+ratio_lag1,-0.706,0.116
+kwh_lag2,0.002,-0.242
+kvarh_lag2,-0.066,-0.008
+ratio_lag2,0.256,0.294
+kwh_lag24,0.452,1.711
+kvarh_lag24,-0.076,-2.175
+ratio_lag24,-1.532,0.599

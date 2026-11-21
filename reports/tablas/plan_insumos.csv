@@ -1,0 +1,14 @@
+,valor
+Qc para FP 95 %: percentil 50 (kVAr),12.6
+Qc para FP 95 %: percentil 95 (kVAr),77.4
+Qc para FP 95 %: máximo (kVAr),163.9
+"Qc para Q ≤ 0,5 P: percentil 95 (kVAr)",32.9
+Horas que necesitan compensación para FP 95 % (%),69.6
+Reactiva excedente anual sobre 50 % de la activa (kVArh),75617.5
+Energía anual (kWh),959640.31
+Carga base nocturna 0–6 h (kW medios),20.22
+Energía en días de reposo (kWh),79568.02
+Energía 0–7 h en días con producción (kWh),38784.37
+Energía no productiva (reposo + madrugadas) (% del total),12.33
+Energía en periodos de punta (carga máxima) (% del total),44.91
+Factor de emisión implícito (kgCO2/kWh),0.46

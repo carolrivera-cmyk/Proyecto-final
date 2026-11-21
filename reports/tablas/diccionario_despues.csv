@@ -1,0 +1,25 @@
+variable,tipo,unidad,origen,descripcion
+energia_kwh,float64,kWh,original,Energía activa del intervalo (1 valor imputado)
+reactiva_ind_kvarh,float64,kVarh,original,Energía reactiva inductiva
+reactiva_cap_kvarh,float64,kVarh,original,Energía reactiva capacitiva (ceros estructurales)
+co2_t,float64,tCO2,original,"CO2 reportado (redondeado a 0,01 t; solo KPI)"
+fp_ind_pct,float64,%,recalculada,Factor de potencia inductivo = P/sqrt(P²+Q²)
+fp_cap_pct,float64,%,recalculada,Factor de potencia capacitivo
+nsm_s,int64,s,original,Segundos desde medianoche (fin del intervalo)
+tipo_dia,category,categoría,original,Weekday / Weekend
+dia_semana,category,categoría ordenada,original,Lunes a domingo
+tipo_carga,category,categoría ordenada,original,Periodo de carga Light < Medium < Maximum (horario fijo; ver EDA)
+ts_fin,datetime64[us],fecha-hora,corregida,Fin del intervalo (medianoche corregida +1 día)
+ts_inicio,datetime64[us],fecha-hora,derivada,Inicio del intervalo (base para agregaciones)
+flag_imputado,int64,0/1,derivada,1 si el registro fue imputado por lectura en cero
+co2_kg_est,float64,kgCO2,derivada,Energía × factor implícito (estimación)
+fecha,datetime64[us],fecha,derivada,Día del intervalo
+hora,int32,0–23,derivada,Hora de inicio del intervalo
+mes,int32,1–12,derivada,Mes
+dia_num,int32,0–6,derivada,Día de la semana (0 = lunes)
+fin_semana,int64,0/1,derivada,1 si es sábado o domingo
+turno,str,categoría,derivada,"T1 06–14, T2 14–22, T3 22–06 (supuesto)"
+demanda_kw,float64,kW,derivada,Potencia media del intervalo = kWh × 4
+ratio_reactiva,float64,kVarh/kWh,derivada,Reactiva inductiva por unidad de energía activa
+fp_bajo,int64,0/1,derivada,1 si FP inductivo < 90 %
+exceso_reactiva_kvarh,float64,kVarh,derivada,Reactiva inductiva por encima del 50 % de la activa
